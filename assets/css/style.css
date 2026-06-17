@@ -2983,10 +2983,12 @@ h2.project_heading:after {
     }
     .education_right .prt_rightside_title {
         left: 0;
-       
         right: 0;
         text-align: center;
         width: 100%;
+    }
+    .education_left  .prt_rightside_title {
+        right: 0%;
     }
     .prt_rightside_title{
         position: relative;
@@ -3123,9 +3125,7 @@ h2.project_heading:after {
 .port_contact_setions .port_contact_mainbox {
     margin-top: 0px;
 }
-.port_map_setions .map-container {
-    height: 315px;
-}
+
 .port_banner_wrapper .banner_content {
     padding-left: 25px;
 }
@@ -3271,7 +3271,18 @@ p.banner_pera {
 .port_testimonial_setions .testimonial_details_box {
     margin-top: 30px;
 }
+.prt_rightside_title .right_title h4 {
+    font-size: 16px;
+}
 
+.port_project_gallery .grid_img:before {
+    opacity: 1;
+    visibility: visible;
+}
+.port_project_gallery .grid-content {
+    opacity: 1;
+    visibility: visible;
+}
 	
 }
 @media (max-width:480px) {
@@ -3309,10 +3320,9 @@ p.banner_pera {
 }
 h3.education_place {
     font-size: 20px;
+    margin: 0px;
 }
-.port_map_setions .map-container {
-    height: 225px;
-}
+
 .bannner_leftpart .banner_name {
     font-size: 35px;
 	margin-bottom: 10px;
