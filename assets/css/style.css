@@ -1660,7 +1660,7 @@ h3.education_place {
     left: -22px;
     top: 96px;
     border-left: 11px solid #f6483a00;
-    border-right:11px solid #ff517e;
+    border-right:11px solid #ffc454;
     border-top: 11px solid #ffffff00;
     border-bottom: 11px solid #ffffff00;
 }
@@ -1728,9 +1728,7 @@ h3.education_place {
 .experience_section .col-md-12:nth-child(6) .ex_leftside {
     background: #ff517e;
 }
-.experience_section .col-md-12:nth-child(2) .ex_leftside:after {
-    border-left-color:#ffc454;
-}
+
 .experience_section .col-md-12:nth-child(3) .ex_leftside:after {
 	border-right-color: #ff754a;
 }
